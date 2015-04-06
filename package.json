@@ -1,0 +1,30 @@
+{
+  "name": "geoToolbox",
+  "version": "0.0.1",
+  "description": "A simple script to convert shapefiles into GeoJSON via GDAL. Will add in more tools in the future.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eterna2/geoToolbox.git"
+  },  
+  "bin" : { 
+    "geojsontoolbox" : "index.js" 
+  },
+  "keywords": [
+    "gdal",
+    "geospatial",
+    "geojson",
+    "shapefile"
+  ],
+  "author": "eterna2",
+  "email": "eterna2@hotmail.com",
+  "license": "MIT",
+  "dependencies" : { 
+    "gdal" : "~0.4.2"
+  }
+  
+}
